@@ -1,0 +1,11 @@
+﻿$font-base:    Helvetica, sans-serif;
+$main-color: #333;
+
+body {
+  font: 100% $font-base;
+  color: $main-color;
+}
+
+.test {
+    font-size: 20px;
+}

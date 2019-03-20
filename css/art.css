@@ -1,0 +1,84 @@
+#blindchrisart {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+#content {
+  background-color: #fff;
+}
+
+.layer {
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  position: fixed;
+  z-index: -1;
+}
+
+#blindchrisart-mobile {
+  display: none;
+  background: url("../img/full_illustration.jpg") no-repeat center center/cover;
+  height: 320px;
+}
+
+.first-section {
+  padding: 50px 0 20px 0;
+}
+
+.text-header {
+  font-size: 50px;
+  text-align: center;
+}
+
+#blindchrisart, .layer {
+  min-height: 600px;
+}
+
+.layer-bg {
+	background-image: url('../img/4thg.jpg');
+  background-position: center center;
+}
+.layer-1 {
+	background-image: url('../img/3rdg.png');
+  background-position: center center;
+		}
+.layer-2 {
+	background-image: url('../img/4thg.jpg');
+  background-position: center center;
+}
+.layer-3 {
+	background-image: url('../img/3rdg.png');
+  background-position: center center;
+		}
+.layer-4 {
+	background-image: url('../img/2ndg.png');
+  background-position: center center;
+
+		}
+.layer-overlay {
+	background-image: url('../img/1stg.png');
+  background-position: center center;
+
+		}
+
+@media only screen and (max-width: 768px) {
+  #blindchrisart {
+    display: none;
+  }
+
+  #blindchrisart-mobile {
+    display: block;
+  }
+}
+.art-link {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: underline;
+}
+.art-link:hover {
+  color: #ede0d5;
+}
